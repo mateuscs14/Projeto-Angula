@@ -4,24 +4,26 @@
     box-sizing: border-box;
   }
 
-  
+  /* body{
+    background: lightblue;
+  } */
+
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* padding: 20%; */
+    /* background: lightblue;  */
+    /* background: lightcoral; */
     height: 100vh;
   }
-  .esquerda { background: lightblue; }
-  .direita { background: lightcoral; }
 
   .boasVindas {
-    
-    justify-content: space-between;
-    gap: 20%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
   }
 
   .boasVindas input {
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
   .ranger img{
